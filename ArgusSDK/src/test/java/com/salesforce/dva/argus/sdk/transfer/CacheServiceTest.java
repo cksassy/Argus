@@ -38,8 +38,8 @@ public class CacheServiceTest {
 		sourceSVC = ArgusService.getInstance("http://ewang-ltm.internal.salesforce.com:8080/argusws", 10);
 		//sourceSVC = ArgusService.getInstance("https://argus-ws.data.sfdc.net/argusws", 10);
 		targetSVC = ArgusService.getInstance("https://argus-ws.data.sfdc.net/argusws", 10);
-		sourceSVC.getAuthService().login("SVC_DB_WORKLOADS", "dBw0ak1oads!$");
-		targetSVC.getAuthService().login("SVC_DB_WORKLOADS", "dBw0ak1oads!$");
+		sourceSVC.getAuthService().login("**removed**", "****");
+		targetSVC.getAuthService().login("**removed**", "****");
 	}
 
 	@AfterClass
